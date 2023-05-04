@@ -1,0 +1,50 @@
+font-family: 'MV Boli', sans-serif;
+font-family: 'Segoe Script', sans-serif; 
+
+.navbar {
+	opacity: 0.8;
+	border-bottom: 1px solid #fff;
+}
+
+.nav-item:hover {
+	color: deeppink; 
+}
+
+.jumbotron 
+{
+	padding-top: 100px;
+}
+
+.fa-ellipsis-v
+{
+	color: pink; 
+}
+
+.container.a
+{
+	color: pink;
+}
+
+main {
+	font-family: 'MV Boli', sans-serif;
+}
+
+main img
+{
+	width: 100%;
+	height: auto;	
+}
+
+main p i
+{
+	font-size: 0.8rem;
+}
+
+.card img 
+{
+	height: 30rem;
+	width: auto;
+}
+.bg-info {
+	background-color: lightpink !important;
+}
