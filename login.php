@@ -137,7 +137,7 @@
 
 				<div class="form-group">
 					<label for="email">Email</label>
-					<input type="text" name="email" class="form-control" placeholder="Email '123@sakarya.edu.tr'" required="required">
+					<input type="email" name="email" class="form-control" placeholder="Email '123@sakarya.edu.tr'" required="required">
 				</div>
 
 				<div class="form-group">
