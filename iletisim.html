@@ -7,7 +7,7 @@
 
 	<!-- Responsive -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
+
 	<!-- Ikon Kutuphanesi -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
@@ -16,12 +16,43 @@
 
 	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
-	
+
 	<!-- Css -->
 	<link rel="stylesheet" href="style.css">
 
 	<!--------------------------------->
 	<title>Web Teknoloji Projesi</title>
+	<style>
+		/* Yeni CSS Kuralları */
+		body {
+			background-color: #EBFFE6;
+			color: #000;
+		}
+
+
+
+
+
+
+
+		.jumbotron h1,
+		.card-title {
+			color: #000;
+		}
+
+		.table-info th {
+			background-color: #E60066 !important;
+		}
+
+		.bg-info {
+			background-color: #E60B6D !important;
+		}
+
+		footer {
+			background-color: 60B6D;
+			color: #000;
+		}
+	</style>
 
 </head>
 
@@ -35,7 +66,7 @@
 
 		<div class="container">
 		
-			<a href="anasayfa.html" class="navbar-brand text-white">
+			<a href="index.html" class="navbar-brand text-white">
 	  		  <i class="fas fa-grin-wink"></i>
 	  		   Büşra
 	      	</a>
@@ -48,17 +79,17 @@
 				<ul class="navbar-nav ml-auto ">
 
 					<li class="nav-item">
-						<a href="anasayfa.html" class="nav-link active  text-white">
+						<a href="index.html" class="nav-link active  text-white">
 	      				Anasayfa
 	      				</a></li>
 
 					<li class="nav-item">
-						<a href="ozgecmisim.html" class="nav-link active  text-white">
+						<a href="ozgecmis.html" class="nav-link active  text-white">
 	      				Özgeçmiş
 	      				</a></li>
 
 	      			<li class="nav-item">
-						<a href="gonya.html" class="nav-link active  text-white">
+						<a href="Gonya.html" class="nav-link active  text-white">
 	      				Gonya
 	      				</a></li>	
 
@@ -84,7 +115,7 @@
 
 	<header>
 
-		<div class="bg-info text-light jumbotron -jumbotron">
+		<div class="bg-info text-light jumbotron balikcilar-jumbotron">
 
 			<div class="container">
 
@@ -108,7 +139,7 @@
 
 				<div class="form-group">
 					<label for="name">İsim</label>
-					<input type="text" name="name" class="form-control" placeholder="İsminizi Girin">							
+					<input type="text" name="name" class="form-control" placeholder="İsminizi Girin">
 					<small class="form-text text-muted">Zorunlu alan</small>
 				</div>
 
@@ -117,6 +148,29 @@
 					<input type="text" name="email" class="form-control" placeholder="Emailinizi girin.">
 					<small class="form-text text-muted">Zorunlu alan</small>
 				</div>
+				<div class="form-group">
+					<label class="form-check-label" for="kadin">Cinsiyet Seçiniz</label><br>
+
+					<input class="form-check-input" type="radio" name="cinsiyet" id="kadin" value="KADIN" checked>
+					<label class="form-check-label" for="kadin">Kadın</label><br>
+
+					<input class="form-check-input" type="radio" name="cinsiyet" id="erkek" value="Erkek">
+					<label class="form-check-label" for="erkek">Erkek</label><br><br>
+
+
+					<label class="input-group-text" for="sehir">Şehir</label>
+					<select class="form-select" name="sehir" id="sehir">
+						<option value="1">Kocaeli</option>
+						<option value="2">Bursa</option>
+						<option value="3">İstanbul</option>
+						<option value="4">Diğer</option>
+					</select><br>
+
+					<label for="formFile" class="form-label">Şikayet Ekran Görüntüsü (İsteğe Bağlı)</label>
+					<input class="form-control" type="file" id="formFile"><br>
+				</div>
+
+
 
 				<div class="form-group">
 					<label for="message">Mesaj</label>
@@ -137,7 +191,7 @@
 
 
 	<footer class="py-5 bg-info text-white text-center">
-		Web-Teknolojileri-Projesi © Büşra ERTEKİN
+		Web-Teknolojileri-Projesi
 	</footer>
 
 	<!-- BOOTSTRAP -->

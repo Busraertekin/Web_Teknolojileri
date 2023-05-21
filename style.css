@@ -1,13 +1,14 @@
-font-family: 'MV Boli', sans-serif;
-font-family: 'Segoe Script', sans-serif; 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
 
-.navbar {
+.navbar 
+{
 	opacity: 0.8;
 	border-bottom: 1px solid #fff;
 }
 
 .nav-item:hover {
-	color: deeppink; 
+	color: blue;
 }
 
 .jumbotron 
@@ -17,16 +18,17 @@ font-family: 'Segoe Script', sans-serif;
 
 .fa-ellipsis-v
 {
-	color: pink; 
+	color: #fff;
 }
 
 .container.a
 {
-	color: pink;
+	color: #fff;
 }
 
-main {
-	font-family: 'MV Boli', sans-serif;
+main
+{
+	font-family: 'Open Sans', sans-serif;
 }
 
 main img
@@ -45,6 +47,38 @@ main p i
 	height: 30rem;
 	width: auto;
 }
-.bg-info {
-	background-color: lightpink !important;
+
+.-jumbotron
+{
+	background-image: url(img/.jpg);
+	background-size: cover;
+	background-position: 50% 30%;
+}
+
+.mirasimiz-jumbotron
+{
+	background-image: url(img/.jpg);
+	background-size: cover;
+	background-position: 50% 40%;
+}
+
+.-jumbotron
+{
+	background-image: url(img/.jpg);
+	background-size: cover;
+	background-position: 10% 70%;
+}
+
+.-jumbotron
+{
+	background-image: url(img/.jpg);
+	background-size: cover;
+	background-position: 10% 70%;
+}
+
+.-jumbotron
+{
+	background-image: url(img/.jpg);
+	background-size: cover;
+	background-position: 10% 70%;
 }
